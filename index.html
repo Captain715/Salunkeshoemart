@@ -1,1 +1,77 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Shop footwear at Salunke Shoe Mart, Chakan."><title>Salunke Shoe Mart | Find Your Next Step</title><link rel="stylesheet" href="css/style.css"></head><body><header id="site-header"></header><main><section class="hero"><div class="hero-inner"><p class="eyebrow">SALUNKE SHOE MART • CHAKAN</p><h1>Every step deserves the right pair.</h1><p>Discover footwear for everyday life, work, weekends and everything in between. Comfort and value, made part of every step.</p><a class="btn btn-light" href="shop.html">EXPLORE THE COLLECTION →</a></div></section><section class="section"><div class="container"><div class="section-head"><p class="eyebrow">THE COLLECTION</p><h2>Find your kind of comfort</h2><p>Explore the range and discover your next pair.</p></div><div class="category-grid"><a class="category-tile" style="--tile:url('https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=700&q=80')" href="shop.html"><span>Sports Shoes</span></a><a class="category-tile" style="--tile:url('https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=700&q=80')" href="shop.html"><span>Women's Footwear</span></a><a class="category-tile" style="--tile:url('https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=700&q=80')" href="shop.html"><span>Casual Shoes</span></a><a class="category-tile" style="--tile:url('https://images.unsplash.com/photo-1603487742131-4160ec999306?auto=format&fit=crop&w=700&q=80')" href="shop.html"><span>Everyday Comfort</span></a></div></div></section><section class="section" style="background:white"><div class="container"><div class="section-head"><p class="eyebrow">STORE PICKS</p><h2>Featured footwear</h2><p>Latest products published by the store team.</p></div><div class="product-grid" id="featured"><div class="empty-state"><h3>Collection being prepared</h3><p>Our store team is adding the current catalogue. Call us for availability.</p><a class="btn btn-dark" href="tel:8308506755">CALL THE STORE</a></div></div></div></section></main><footer id="site-footer"></footer><script type="module" src="js/store.js"></script><script type="module">import{products,card}from"./js/store.js";const e=document.querySelector("#featured");try{const p=await products({featured:true});e.innerHTML=p.length?p.map(card).join(""):'<div class="empty-state"><h3>Collection being prepared</h3><p>Our store team is adding the current catalogue. Call us for availability.</p><a class="btn btn-dark" href="tel:8308506755">CALL THE STORE</a></div>'}catch(x){e.innerHTML='<div class="empty-state">Catalogue temporarily unavailable.</div>'}</script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Discover everyday, sports and occasion footwear at Salunke Shoe Mart, Chakan, Maharashtra.">
+<meta name="theme-color" content="#171916">
+<title>Salunke Shoe Mart | Footwear for Every Move</title>
+<link rel="preconnect" href="https://images.unsplash.com"><link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header id="site-header"></header>
+<main>
+<section class="lux-hero">
+  <div class="lux-hero-shade"></div>
+  <div class="lux-hero-content">
+    <p class="eyebrow">SALUNKE SHOE MART · CHAKAN</p>
+    <p class="lux-kicker">THE NEW EVERYDAY</p>
+    <h1>Make every<br><em>step count.</em></h1>
+    <p class="lux-lede">Footwear for the way you move — from everyday essentials to the pairs that make a statement.</p>
+    <div class="lux-actions"><a class="btn btn-light" href="shop.html">SHOP THE COLLECTION <span>↗</span></a><a class="lux-text-link" href="about.html">DISCOVER OUR STORE</a></div>
+  </div>
+  <div class="lux-hero-foot"><span>01 / EVERYDAY · SPORT · OCCASION</span><span>CHAKAN, MAHARASHTRA</span></div>
+</section>
+
+<section class="lux-intro section">
+ <div class="container lux-intro-grid">
+  <div><p class="eyebrow">THE SALUNKE EDIT</p><h2>Good footwear.<br><em>Better days.</em></h2></div>
+  <div><p>Find a pair that fits your routine, your plans and your pace. Explore our collections and contact the store for current sizes, colours and availability.</p><a class="lux-arrow-link" href="shop.html">EXPLORE ALL FOOTWEAR <span>↗</span></a></div>
+ </div>
+</section>
+
+<section class="lux-category-section">
+ <div class="container">
+  <div class="lux-section-heading"><div><p class="eyebrow">SHOP BY STYLE</p><h2>Find your <em>fit.</em></h2></div><a class="lux-arrow-link" href="shop.html">VIEW ALL <span>↗</span></a></div>
+  <div class="lux-category-grid">
+   <a class="lux-category lux-cat-one" href="shop.html"><span class="lux-cat-no">01</span><span class="lux-cat-label">SPORT & ACTIVE</span><span class="lux-cat-arrow">↗</span></a>
+   <a class="lux-category lux-cat-two" href="shop.html"><span class="lux-cat-no">02</span><span class="lux-cat-label">WOMEN'S FOOTWEAR</span><span class="lux-cat-arrow">↗</span></a>
+   <a class="lux-category lux-cat-three" href="shop.html"><span class="lux-cat-no">03</span><span class="lux-cat-label">CASUAL & DAILY</span><span class="lux-cat-arrow">↗</span></a>
+   <a class="lux-category lux-cat-four" href="shop.html"><span class="lux-cat-no">04</span><span class="lux-cat-label">FORMAL & OCCASION</span><span class="lux-cat-arrow">↗</span></a>
+  </div>
+ </div>
+</section>
+
+<section class="section lux-products">
+ <div class="container">
+  <div class="lux-section-heading"><div><p class="eyebrow">CURATED FOR YOU</p><h2>Featured <em>pairs.</em></h2><p class="lux-subtitle">A selection from the products currently published by our store.</p></div><a class="lux-arrow-link" href="shop.html">SHOP EVERYTHING <span>↗</span></a></div>
+  <div class="product-grid" id="featured"><div class="empty-state"><h3>Our collection is being prepared.</h3><p>Contact the store for current products and availability.</p><a class="btn btn-dark" href="tel:8308506755">CALL THE STORE</a></div></div>
+ </div>
+</section>
+
+<section class="lux-manifesto">
+ <div class="lux-manifesto-image" role="img" aria-label="Athletic footwear editorial"></div>
+ <div class="lux-manifesto-copy"><p class="eyebrow">MADE FOR YOUR EVERYDAY</p><h2>From the first step<br>to the <em>next big thing.</em></h2><p>We believe the right pair should feel right for your day. Visit our Chakan store or explore the online collection.</p><a class="btn btn-light" href="contact.html">GET IN TOUCH <span>↗</span></a></div>
+</section>
+
+<section class="lux-values section">
+ <div class="container">
+  <div class="lux-section-heading"><div><p class="eyebrow">THE STORE EXPERIENCE</p><h2>Simple. Helpful. <em>Reliable.</em></h2></div></div>
+  <div class="lux-value-grid">
+   <article><span>01</span><h3>Choice for every day</h3><p>Explore footwear across different styles and everyday needs.</p></article>
+   <article><span>02</span><h3>Personal assistance</h3><p>Contact our team for help with sizes, product details and availability.</p></article>
+   <article><span>03</span><h3>Local store support</h3><p>Connect with Salunke Shoe Mart in Chakan, Maharashtra.</p></article>
+  </div>
+ </div>
+</section>
+
+<section class="lux-final-cta"><p class="eyebrow">YOUR NEXT PAIR IS WAITING</p><h2>Find your next <em>step.</em></h2><a class="btn btn-light" href="shop.html">EXPLORE THE COLLECTION <span>↗</span></a></section>
+</main>
+<footer id="site-footer"></footer>
+<script type="module" src="js/store.js"></script>
+<script type="module">
+import{products,card}from"./js/store.js";
+const e=document.querySelector("#featured");
+try{const p=await products({featured:true});e.innerHTML=p.length?p.slice(0,4).map(card).join(""):'<div class="empty-state"><h3>Our collection is being prepared.</h3><p>Contact the store for current products and availability.</p><a class="btn btn-dark" href="tel:8308506755">CALL THE STORE</a></div>'}
+catch(x){e.innerHTML='<div class="empty-state">The catalogue is temporarily unavailable. Please try again shortly.</div>'}
+</script>
+</body></html>
